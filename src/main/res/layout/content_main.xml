@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.admin.seaal_app.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/butt_feau"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="fuite d'eau"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="158dp"
+        android:onClick="fuite"/>
+
+    <Button
+        android:id="@+id/butt_assnis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="assinis"
+        android:text="fuite d'assainissment"
+        tools:layout_editor_absoluteX="101dp"
+        tools:layout_editor_absoluteY="231dp" />
+
+</android.support.constraint.ConstraintLayout>
